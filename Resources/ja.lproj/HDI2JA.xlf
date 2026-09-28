@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+		<body>
+			<trans-unit resname="HDI2_TabInfo">
+				<source>Info</source>
+				<target>情報</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_TabExample">
+				<source>Example</source>
+				<target>サンプル</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_TextPage0ComboBox">
+				<source>Page0_ComboBox</source>
+				<target>Page0_ComboBox</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_TextPage0Variable">
+				<source>Page0_Variable</source>
+				<target>Page0_Variable</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_BtnSet">
+				<source>SET</source>
+				<target>SET</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_BtnGet">
+				<source>GET</source>
+				<target>GET</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_CheckBoxLabel">
+				<source>Check Box</source>
+				<target>チェックボックス</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_RadioButtonLabel">
+				<source>Radio button</source>
+				<target>ラジオボタン</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_ButtonLabel">
+				<source>Button</source>
+				<target>ボタン</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_TxtSubform">
+				<source>Subform*</source>
+				<target>サブフォーム*</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_TxtVariable">
+				<source>Variable</source>
+				<target>変数</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_TxtCheckBox">
+				<source>CheckBox</source>
+				<target>チェックボックス</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_TxtRadioButton">
+				<source>RadioButton</source>
+				<target>ラジオボタン</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_TxtDropDown">
+				<source>DropDown</source>
+				<target>ドロップダウン</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_TxtComboBox">
+				<source>ComboxBox</source>
+				<target>コンボボックス</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_TxtButton">
+				<source>Button</source>
+				<target>ボタン</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_StWarning">
+				<source>Error in the tabbable order. You have selected an object twice time or a non-tabbable object. Click on the  GET button to see the actual order.</source>
+				<target>タブ順序にエラーがあります。同じオブジェクトを二度選択するか、タブ移動できないオブジェクトを選択した場合に発生します。実際の順序を確認するには「GET」ボタンをクリックしてください。</target>
+			</trans-unit>
+			<trans-unit resname="HDI2_Text9">
+				<source>*: The subform order is defined in the subform itself.</source>
+				<target>*: サブフォームの順序はサブフォーム自体で定義されます。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/Forms/HDI/form.4DForm" source-language="en" target-language="ja">
+		<body>
+			<trans-unit resname="HDI_TxtSorry1">
+				<source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+				<target>このバージョンでこのHDIをデザインモードで開かないでください。開くと機能不足によりフォームやメソッドが変更される可能性があります。</target>
+			</trans-unit>
+			<trans-unit resname="HDI_TxtInfo1">
+				<source>How Do I...</source>
+				<target>How Do I...</target>
+			</trans-unit>
+			<trans-unit resname="HDI_TxtInfo2">
+				<source>… define the entry order by programming?</source>
+				<target>…プログラムでエントリー順序を定義するには？</target>
+			</trans-unit>
+			<trans-unit resname="HDI_TxtSorry2">
+				<source>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v16 R4 and above).</source>
+				<target>申し訳ございませんが、この「How do I」(HDI)サンプルはより新しいバージョンの4D(v16 R4以降)で使用する必要があります。</target>
+			</trans-unit>
+			<trans-unit resname="HDI_TxtVersion">
+				<source>(4D v16 R4 and above…)</source>
+				<target>(4D v16 R4以降…)</target>
+			</trans-unit>
+			<trans-unit resname="HDI_BtnDemo">
+				<source>Demo</source>
+				<target>デモ</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

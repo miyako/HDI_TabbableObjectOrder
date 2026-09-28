@@ -1,0 +1,19 @@
+/* Cross-platform dark mode support.
+
+   Most form objects use "automatic"/"automaticAlternate" color values set
+   directly on the object in form.4DForm, which already adapt to the system
+   color scheme without any CSS. The "hdi-warning" class below is the one
+   deliberately-branded color in the project (the "wrong 4D version"
+   warning text on the HDI splash form), so it gets an explicit light/dark
+   pair here instead of "automatic". */
+@media (prefers-color-scheme: light) {
+	.hdi-warning {
+		stroke: #FF4D00;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-warning {
+		stroke: #FF8A5B;
+	}
+}
