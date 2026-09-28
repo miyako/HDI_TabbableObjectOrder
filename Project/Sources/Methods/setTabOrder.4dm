@@ -1,9 +1,9 @@
 //%attributes = {"invisible":true}
 ARRAY TEXT:C222($arrTabOrderObjet; 0)
 ARRAY TEXT:C222($arrGet; 0)
-C_POINTER:C301($Ptr)
-C_TEXT:C284($objectName)
-C_LONGINT:C283($i; $ref)
+var $Ptr : Pointer
+var $objectName : Text
+var $i; $ref : Integer
 
 clearPicture
 

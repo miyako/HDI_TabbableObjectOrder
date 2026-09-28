@@ -1,5 +1,5 @@
 //%attributes = {"invisible":true}
-C_POINTER:C301($Ptr)
+var $Ptr : Pointer
 
 // clear picture
 $Ptr:=OBJECT Get pointer:C1124(Object named:K67:5; "PicSubform")

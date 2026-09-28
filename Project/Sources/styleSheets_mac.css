@@ -14,3 +14,27 @@
 	font-weight: bold;
 }
 
+/* Liquid Glass (macOS Tahoe+) vs classic macOS push button heights.
+   Every button in the project uses the "default1" class; both the
+   class-only and compound selectors are set because 4D's CSS engine
+   does not always reliably match the compound button.default1 form. */
+@media (form-theme: liquid-glass) {
+	.default1 {
+		height: 27px;
+	}
+
+	button.default1 {
+		height: 27px;
+	}
+}
+
+@media (form-theme: mac-classic) {
+	.default1 {
+		height: 23px;
+	}
+
+	button.default1 {
+		height: 23px;
+	}
+}
+

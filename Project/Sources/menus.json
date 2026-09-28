@@ -22,12 +22,12 @@
 			"title": ":xliff:CommonMenuFile",
 			"items": [
 				{
-					"title": "Demo...",
+					"title": ":xliff:MenuItemDemo",
 					"method": "00_Start"
 				},
 				{
 					"title": ":xliff:CommonMenuItemQuit",
-					"method": "m_Quit",
+					"action": "quit",
 					"shortcutAccel": true,
 					"shortcutKey": "Q"
 				}

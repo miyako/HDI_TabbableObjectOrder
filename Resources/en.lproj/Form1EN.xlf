@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Sources/TableForms/1/Form1/form.4DForm" source-language="en" target-language="en">
+		<body>
+			<trans-unit resname="Form1_TxtTable1">
+				<source>Table_1</source>
+				<target>Table_1</target>
+			</trans-unit>
+			<trans-unit resname="Form1_TxtID">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit resname="Form1_TxtSampleSort">
+				<source>SampleSort : </source>
+				<target>SampleSort : </target>
+			</trans-unit>
+			<trans-unit resname="Form1_TxtTitle">
+				<source>Title : </source>
+				<target>Title : </target>
+			</trans-unit>
+			<trans-unit resname="Form1_TxtText">
+				<source>Text : </source>
+				<target>Text : </target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

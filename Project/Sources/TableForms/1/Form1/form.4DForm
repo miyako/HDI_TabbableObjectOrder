@@ -47,7 +47,7 @@
 					"width": 100,
 					"height": 12,
 					"dataSource": "vRecNum",
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 9,
 					"focusable": false,
@@ -74,8 +74,8 @@
 					"width": 380,
 					"height": 17,
 					"sizingX": "grow",
-					"stroke": "#000000",
-					"text": "Table_1"
+					"stroke": "automatic",
+					"text": ":xliff:Form1_TxtTable1"
 				},
 				"Line8": {
 					"type": "line",
@@ -224,7 +224,8 @@
 					"width": 86,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ID : "
+					"text": ":xliff:Form1_TxtID",
+					"stroke": "automatic"
 				},
 				"Text10": {
 					"type": "text",
@@ -233,7 +234,8 @@
 					"width": 86,
 					"height": 17,
 					"textAlign": "right",
-					"text": "SampleSort : "
+					"text": ":xliff:Form1_TxtSampleSort",
+					"stroke": "automatic"
 				},
 				"Text11": {
 					"type": "text",
@@ -242,7 +244,8 @@
 					"width": 86,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Title : "
+					"text": ":xliff:Form1_TxtTitle",
+					"stroke": "automatic"
 				},
 				"Text12": {
 					"type": "text",
@@ -251,7 +254,8 @@
 					"width": 86,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Text : "
+					"text": ":xliff:Form1_TxtText",
+					"stroke": "automatic"
 				},
 				"ID": {
 					"type": "input",
@@ -290,7 +294,7 @@
 					"dataSource": "[SAMPLES:1]SampleSort:4",
 					"dataSourceTypeHint": "integer",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -316,7 +320,7 @@
 					"sizingX": "grow",
 					"dataSource": "[SAMPLES:1]Title:2",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
@@ -344,7 +348,7 @@
 					"sizingY": "grow",
 					"dataSource": "[SAMPLES:1]Text:3",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"styledText": true,
 					"allowFontColorPicker": true,

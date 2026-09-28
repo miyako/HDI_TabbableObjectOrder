@@ -1,6 +1,7 @@
 //%attributes = {"invisible":true}
 ARRAY TEXT:C222(TabControl; 0)
 ARRAY TEXT:C222(TextTabControl; 0)
+var $json : Collection
 
 If (Get database localization:C1009(Current localization:K5:22)="ja")
 	$json:=JSON Parse:C1218(Folder:C1567(fk resources folder:K87:11).file("SAMPLES-ja.json").getText(); Is collection:K8:32)

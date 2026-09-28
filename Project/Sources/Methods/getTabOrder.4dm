@@ -1,7 +1,7 @@
 //%attributes = {"invisible":true}
 ARRAY TEXT:C222($arrTabOrderObjet; 0)
-C_POINTER:C301($Ptr)
-C_LONGINT:C283($i)
+var $Ptr : Pointer
+var $i : Integer
 
 FORM GET ENTRY ORDER:C1469($arrTabOrderObjet; *)
 

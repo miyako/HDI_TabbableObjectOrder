@@ -45,8 +45,8 @@
 					"sizingY": "grow",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Info",
-						"Example"
+						":xliff:HDI2_TabInfo",
+						":xliff:HDI2_TabExample"
 					],
 					"action": "GotoPage",
 					"events": [
@@ -127,7 +127,8 @@
 					"height": 17,
 					"visibility": "hidden",
 					"textAlign": "right",
-					"text": "Page0_ComboBox"
+					"text": ":xliff:HDI2_TextPage0ComboBox",
+					"stroke": "automatic"
 				},
 				"TextPage0_Variable": {
 					"type": "text",
@@ -137,7 +138,8 @@
 					"height": 17,
 					"visibility": "hidden",
 					"textAlign": "right",
-					"text": "Page0_Variable"
+					"text": ":xliff:HDI2_TextPage0Variable",
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -291,26 +293,28 @@
 					"top": 478,
 					"left": 99,
 					"width": 68,
-					"height": 22,
-					"text": "SET",
+					"text": ":xliff:HDI2_BtnSet",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default1",
+					"stroke": "automatic"
 				},
 				"Button3": {
 					"type": "button",
 					"top": 478,
 					"left": 187,
 					"width": 68,
-					"height": 22,
-					"text": "GET",
+					"text": ":xliff:HDI2_BtnGet",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default1",
+					"stroke": "automatic"
 				},
 				"Picture2": {
 					"type": "picture",
@@ -425,10 +429,11 @@
 					"left": 541,
 					"width": 141,
 					"height": 24,
-					"text": "Check Box",
+					"text": ":xliff:HDI2_CheckBoxLabel",
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"RadioButton": {
 					"type": "radio",
@@ -436,10 +441,11 @@
 					"left": 541,
 					"width": 140,
 					"height": 26,
-					"text": "Radio button",
+					"text": ":xliff:HDI2_RadioButtonLabel",
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Dropdown": {
 					"type": "dropdown",
@@ -472,11 +478,12 @@
 					"top": 510,
 					"left": 542,
 					"width": 81,
-					"height": 20,
-					"text": "Button",
+					"text": ":xliff:HDI2_ButtonLabel",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default1",
+					"stroke": "automatic"
 				},
 				"PicSubform": {
 					"type": "input",
@@ -599,7 +606,8 @@
 					"width": 120,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Subform*"
+					"text": ":xliff:HDI2_TxtSubform",
+					"stroke": "automatic"
 				},
 				"Text1": {
 					"type": "text",
@@ -608,7 +616,8 @@
 					"width": 120,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Variable"
+					"text": ":xliff:HDI2_TxtVariable",
+					"stroke": "automatic"
 				},
 				"Text2": {
 					"type": "text",
@@ -617,7 +626,8 @@
 					"width": 120,
 					"height": 17,
 					"textAlign": "right",
-					"text": "CheckBox"
+					"text": ":xliff:HDI2_TxtCheckBox",
+					"stroke": "automatic"
 				},
 				"Text3": {
 					"type": "text",
@@ -626,7 +636,8 @@
 					"width": 120,
 					"height": 17,
 					"textAlign": "right",
-					"text": "RadioButton"
+					"text": ":xliff:HDI2_TxtRadioButton",
+					"stroke": "automatic"
 				},
 				"Text4": {
 					"type": "text",
@@ -635,7 +646,8 @@
 					"width": 120,
 					"height": 17,
 					"textAlign": "right",
-					"text": "DropDown"
+					"text": ":xliff:HDI2_TxtDropDown",
+					"stroke": "automatic"
 				},
 				"Text5": {
 					"type": "text",
@@ -644,7 +656,8 @@
 					"width": 120,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ComboxBox"
+					"text": ":xliff:HDI2_TxtComboBox",
+					"stroke": "automatic"
 				},
 				"Text6": {
 					"type": "text",
@@ -653,7 +666,8 @@
 					"width": 120,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Button"
+					"text": ":xliff:HDI2_TxtButton",
+					"stroke": "automatic"
 				},
 				"PicComboBox": {
 					"type": "input",
@@ -695,7 +709,8 @@
 					"left": 68,
 					"width": 243,
 					"height": 97,
-					"text": "Error in the tabbable order. \rYou have selected an object twice time or a non-tabbable object. Click on the  GET button to see the actual order."
+					"text": ":xliff:HDI2_StWarning",
+					"stroke": "automatic"
 				},
 				"Text9": {
 					"type": "text",
@@ -703,7 +718,8 @@
 					"left": 375,
 					"width": 343,
 					"height": 33,
-					"text": "*: The subform order is defined in the subform itself."
+					"text": ":xliff:HDI2_Text9",
+					"stroke": "automatic"
 				},
 				"Variable2": {
 					"type": "input",

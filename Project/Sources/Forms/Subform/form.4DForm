@@ -40,10 +40,11 @@
 					"left": 22,
 					"width": 137,
 					"height": 24,
-					"text": "Check Box",
+					"text": ":xliff:Subform_CheckBox",
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable": {
 					"type": "input",
