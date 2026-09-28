@@ -1,0 +1,53 @@
+{
+	"ObjectName": {
+		"lineHeight": 18,
+		"editable": true,
+		"items": [
+			{
+				"text": "Subform",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Page0_Variable",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Page0_ComboxBox",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Variable",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "CheckBox",
+				"ref": 5,
+				"editable": true
+			},
+			{
+				"text": "RadioButton",
+				"ref": 6,
+				"editable": true
+			},
+			{
+				"text": "DropDown",
+				"ref": 7,
+				"editable": true
+			},
+			{
+				"text": "ComboxBox",
+				"ref": 8,
+				"editable": true
+			},
+			{
+				"text": "Button",
+				"ref": 9,
+				"editable": true
+			}
+		]
+	}
+}

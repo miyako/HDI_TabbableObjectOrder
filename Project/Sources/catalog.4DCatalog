@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_TabbableObjectOrder" uuid="5F6050D122014B6EA54A831E93512B60" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="SAMPLES" uuid="B43231688C124B9889FEEFDA5ED24E20" id="1">
+		<field name="ID" uuid="D52F257AF59E43A7B8F8B82C20E464BA" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Title" uuid="78D9BA6C5FA9400A9E10765BDA64DDFD" type="10" never_null="true" id="2"/>
+		<field name="Text" uuid="6C55BCDE1CE44C4BAE80445F73C59781" type="10" never_null="true" id="3"/>
+		<field name="SampleSort" uuid="08C6DE63FA4B4564B42AE92B5D2ED8E5" type="4" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="D52F257AF59E43A7B8F8B82C20E464BA"/>
+		<table_extra input_form="Form1" output_form="Output"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="16118EE81F014F65AD3E106916CC26D6" type="7">
+		<field_ref uuid="D52F257AF59E43A7B8F8B82C20E464BA" name="ID">
+			<table_ref uuid="B43231688C124B9889FEEFDA5ED24E20" name="SAMPLES"/>
+		</field_ref>
+	</index>
+	<base_extra package_name="HDI_TabbableObjectOrder" structure_file_name="HowDoI" data_file_path=":HowDoI.4DD">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

@@ -1,0 +1,22 @@
+//%attributes = {"invisible":true}
+C_POINTER:C301($Ptr)
+
+// clear picture
+$Ptr:=OBJECT Get pointer:C1124(Object named:K67:5; "PicSubform")
+CLEAR VARIABLE:C89($Ptr->)
+$Ptr:=OBJECT Get pointer:C1124(Object named:K67:5; "PicPage0_Variable")
+CLEAR VARIABLE:C89($Ptr->)
+$Ptr:=OBJECT Get pointer:C1124(Object named:K67:5; "PicPage0_ComboBox")
+CLEAR VARIABLE:C89($Ptr->)
+$Ptr:=OBJECT Get pointer:C1124(Object named:K67:5; "PicVariable")
+CLEAR VARIABLE:C89($Ptr->)
+$Ptr:=OBJECT Get pointer:C1124(Object named:K67:5; "PicCheckBox")
+CLEAR VARIABLE:C89($Ptr->)
+$Ptr:=OBJECT Get pointer:C1124(Object named:K67:5; "PicRadioButton")
+CLEAR VARIABLE:C89($Ptr->)
+$Ptr:=OBJECT Get pointer:C1124(Object named:K67:5; "PicDropDown")
+CLEAR VARIABLE:C89($Ptr->)
+$Ptr:=OBJECT Get pointer:C1124(Object named:K67:5; "PicComboBox")
+CLEAR VARIABLE:C89($Ptr->)
+$Ptr:=OBJECT Get pointer:C1124(Object named:K67:5; "PicButton")
+CLEAR VARIABLE:C89($Ptr->)
